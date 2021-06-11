@@ -3,7 +3,7 @@ import json
 import os
 
 import psycopg2
-from DBUtils.PooledDB import PooledDB
+from dbutils.pooled_db import PooledDB
 
 
 class ConfigurationNotFoundError(Exception):
